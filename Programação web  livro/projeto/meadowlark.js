@@ -1,6 +1,6 @@
 const express = require('express')
 const {engine} = require('express-handlebars')
-const fortune = require('./lib/fortune')
+const handlers = require('./lib/handlers')
 
 const app = express()
 
